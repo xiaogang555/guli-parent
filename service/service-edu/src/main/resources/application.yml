@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: guli-edu
+  datasource:
+    url: jdbc:mysql://localhost/guli_edu?serverTimezone=GMT%2B8
+    username: root
+    password: 124958
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    date-format: yyyy-mm-dd HH:mm:ss
+    time-zone: GMT+8
+
+server:
+  port: 8110
+
